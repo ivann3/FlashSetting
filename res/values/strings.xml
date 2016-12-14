@@ -4,5 +4,26 @@
     <string name="app_name">FlashSetting</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    
+    <!-- activity_main.xml -->
+    <string name="copy">Copy</string>
+    <string name="stop">Stop</string>
+    <string name="delete">Delete</string>
+    <string name="hint">输入复制次数 </string>
+    <string name="setNumber">set Number</string>
+    <string name="autoCopy">autp Copt</string>
+    <string name="open">Open</string>
+    
+    <!-- number.xml  -->
+    <string name="wipeData">清除测试数据</string>
+    <string name="quit">退出</string>
+    <string name="rate">速率:</string>
+    <string name="finished">文件完成个数:</string>
+    <string name="init">100</string>
+    <string name="times">设置次数</string>
+    <string name="copyFile">复制文件</string>
+    
+    <!-- simple.xml -->
+    <string name="zero_00">00</string>
+    <string name="zero_0000">0000</string>
 </resources>
