@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="Copy" />
+            android:text="@string/copy" />
 
         <Button
             android:id="@+id/end"
@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="Stop" />
+            android:text="@string/stop" />
 
         <Button
             android:id="@+id/delete"
@@ -40,7 +40,7 @@
             android:layout_weight="1"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="Delete" />
+            android:text="@string/delete" />
     </LinearLayout>
 
     <LinearLayout
@@ -128,7 +128,7 @@
             android:layout_height="35dp"
             android:layout_margin="5dp"
             android:background="#ffffff"
-            android:hint="输入复制次数" />
+            android:hint="@string/hint" />
 
         <Button
             android:id="@+id/number"
@@ -137,7 +137,7 @@
             android:layout_margin="5dp"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="set Number" />
+            android:text="@string/setNumber" />
 
         <Button
             android:id="@+id/autoCopy"
@@ -146,7 +146,7 @@
             android:layout_margin="5dp"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="auto Copy" />
+            android:text="@string/autoCopy" />
     </LinearLayout>
 
     <LinearLayout
@@ -193,6 +193,6 @@
         android:layout_margin="5dp"
         android:background="@drawable/btn"
         android:onClick="onStart"
-        android:text="Open" />
+        android:text="@string/open" />
 
 </RelativeLayout>
