@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
-                android:text="0000"
+                android:text="@string/zero_00"
                 android:textSize="30sp" />
 
             <TextView
@@ -111,7 +111,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1.3"
-            android:text="00"
+            android:text="@string/zero_0000"
             android:textColor="#000000" />
     </LinearLayout>
 
@@ -161,7 +161,7 @@
             android:layout_marginTop="10dp"
             android:background="#28D4CA"
             android:cursorVisible="true"
-            android:hint="100"
+            android:hint="@string/init"
             android:inputType="number" />
 
         <Button
@@ -171,7 +171,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="设置次数" />
+            android:text="@string/times" />
 
         <Button
             android:id="@+id/autoCopy"
@@ -180,7 +180,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="复制文件" />
+            android:text="@string/copyFile" />
 
         <Button
             android:id="@+id/clean"
@@ -189,7 +189,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="清除测试数据" />
+            android:text="@string/wipeData" />
     </LinearLayout>
 
 </RelativeLayout>

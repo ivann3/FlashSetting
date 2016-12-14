@@ -19,7 +19,7 @@
             android:layout_weight="1"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="清除测试数据" />
+            android:text="@string/wipeData" />
         
         <Button
             android:id="@+id/delete"
@@ -29,7 +29,7 @@
             android:layout_marginLeft="10dp"
             android:background="@drawable/btn"
             android:onClick="onStart"
-            android:text="退出"
+            android:text="@string/quit"
             android:visibility="gone" />
     </LinearLayout>
 
@@ -72,7 +72,7 @@
              	<TextView
             		android:layout_width="wrap_content"
             		android:layout_height="wrap_content"
-                	android:text="速率："/>   
+                	android:text="@string/rate"/>   
                 
             	<TextView
             		android:id="@+id/tv_copyVelocity"
@@ -98,7 +98,7 @@
              	<TextView
             		android:layout_width="wrap_content"
             		android:layout_height="wrap_content"
-                	android:text="文件完成个数："/>   
+                	android:text="@string/finished"/>   
                 
             	<TextView
                 	android:id="@+id/textView"
@@ -160,7 +160,7 @@
             android:cursorVisible="true"
             android:inputType="number"
             android:background="#ffffff"
-            android:hint="100" />
+            android:hint="@string/init" />
         
         <Button
             android:id="@+id/number"
@@ -168,7 +168,7 @@
             android:layout_height="match_parent"
             android:onClick="onStart"
             android:background="@drawable/btn"
-            android:text="设置次数" 
+            android:text="@string/times" 
             android:layout_marginLeft="10dp"/>
 
         <Button
@@ -177,7 +177,7 @@
             android:layout_height="match_parent"
             android:onClick="onStart"
             android:background="@drawable/btn"
-            android:text="复制文件" 
+            android:text="@string/copyFile" 
             android:layout_marginLeft="10dp"/>
     </LinearLayout>
     
